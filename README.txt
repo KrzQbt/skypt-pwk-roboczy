@@ -11,16 +11,16 @@ WYMAGANIA:
 
 URUCHOMIENIE (należy podstawić nazwę swojego pliku z rysunkiem w miejsce example.drawio.xml):
 
-        python3 validator.py example.drawio.xml
+        python3 validator_new.py example.drawio.xml
 
     dla wygody polecam uruchomić od razu z wypisaniem do pliku, żeby nie czytać z terminala:
 
-        python3 validator.py example.drawio.xml > test.txt
+        python3 validator_new.py example.drawio.xml > test.txt
 
 
     A żeby włączyć na przykładzie z folderu można użyć:
 
-        python3 validator.py q00_DragonStory_diagram\ projektowy.drawio.xml > test.txt
+        python3 validator_new.py q00_DragonStory_diagram\ projektowy.drawio.xml > test.txt
 
 
     uwaga - rysunek musi być pobrany jako nieskompresowany xml
